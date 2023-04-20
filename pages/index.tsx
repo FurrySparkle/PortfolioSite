@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import Header from "../components/header";
 import Contributions from "../components/contributions";
+import dynamic from "next/dynamic";
+
 
 const FrameComponent: NextPage = () => {
   return (
@@ -66,7 +68,8 @@ const FrameComponent: NextPage = () => {
             src="/aspbox-1@2x.png"
           />
         </a>
-        <a className="[text-decoration:none] relative w-[400px] h-[114px] shrink-0 overflow-hidden text-xl text-[inherit]">
+        <a className="[text-decoration:none] relative w-[400px] h-[114px] shrink-0 overflow-hidden text-xl text-[inherit]"
+        href="public\Resume.rtf">
           <div className="absolute top-[15px] left-[29px] tracking-[0.4px] leading-[24px] uppercase inline-block w-[335px] h-[127px]">
             <p className="m-0">
               For my full work history please download my Resume here |
@@ -85,4 +88,5 @@ const FrameComponent: NextPage = () => {
   );
 };
 
-export default FrameComponent;
+export default dynamic (() => Promise.resolve(FrameComponent), {ssr: false})
+
