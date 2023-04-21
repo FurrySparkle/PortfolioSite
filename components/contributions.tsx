@@ -5,7 +5,7 @@ const Contributions: NextPage = () => {
   return (
     <div className="self-stretch overflow-hidden flex flex-col py-[27px] px-4 items-center justify-start gap-[36px]">
       <div className="relative w-[336px] h-[127px] shrink-0">
-        <blockquote className="m-0 absolute top-[0px] left-[0px]">I’m looking for employment as a junior Unreal Engine 5 Dev. Interested in AI and VFX</blockquote >
+        <blockquote className="m-0 absolute top-[0px] left-[0px]">I’m looking for employment as a junior Unreal Engine 5 Dev. Interested in AI and VFX. Very flexible on what I work on including learning new languages and engines.</blockquote >
       </div>
       <div className="w-[359px] h-14 shrink-0 overflow-hidden flex flex-row py-[9px] pr-0 pl-[7px] box-border items-center justify-start gap-[118px]">
         <Button
