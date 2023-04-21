@@ -18,7 +18,7 @@ const FrameComponent: NextPage = () => {
         </p>
       </div>
 
-      <iframe src="https://player.twitch.tv/?video=1799767724&parent=sheridan.vip" frameborder="0" allowfullscreen="true" 
+      <iframe src="https://player.twitch.tv/?video=v1799767724&parent=sheridan.vip" frameborder="0" allowfullscreen="true" 
       height="378" width="620"></iframe>
       {/* <iframe
         className="[border:none] self-stretch overflow-hidden"
