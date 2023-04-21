@@ -17,14 +17,17 @@ const FrameComponent: NextPage = () => {
           John joked that AI would displace him as a Tea Pot!
         </p>
       </div>
-      <iframe
+
+      <iframe src="https://player.twitch.tv/?video=1799767724&parent=sheridan.vip" frameborder="0" allowfullscreen="true" 
+      height="378" width="620"></iframe>
+      {/* <iframe
         className="[border:none] self-stretch overflow-hidden"
         src="https://player.twitch.tv/?video=v1799767724&parent=sheridan.vip&muted=true"
         height="20%"
         width="90%"
         allowFullscreen
         
-      />
+      /> */}
       <Contributions />
       <div className="self-stretch flex flex-col items-center justify-start gap-[19px] text-sm font-roboto">
         <div className="relative text-[40px] font-karla inline-block w-[400px] h-[82px] shrink-0">
