@@ -19,7 +19,7 @@ const FrameComponent: NextPage = () => {
       </div>
       <iframe
         className="[border:none] self-stretch overflow-hidden"
-        src="https://www.twitch.tv/yesterdaytodayai"
+        src="https://www.twitch.tv/videos/1799767724"
       />
       <Contributions />
       <div className="self-stretch flex flex-col items-center justify-start gap-[19px] text-sm font-roboto">
