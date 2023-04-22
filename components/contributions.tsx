@@ -14,7 +14,7 @@ const Contributions: NextPage = () => {
         </p>
       </div>
      
-      <iframe src="https://player.twitch.tv/?video=1799767724&parent=sheridan.vip" height="30%" width="75%"></iframe>
+      <iframe src="https://player.twitch.tv/?video=1799767724&parent=sheridan.vip" height="500" width="75%"></iframe>
       <div className="relative w-[336px] h-[127px] shrink-0">
         <blockquote className="m-0 absolute top-[0px] left-[0px]">I’m looking for employment as a junior Unreal Engine 5 Dev. Interested in AI and VFX. Very flexible on what I work on including learning new languages and engines.</blockquote >
       </div>
