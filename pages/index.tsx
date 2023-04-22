@@ -2,32 +2,19 @@ import type { NextPage } from "next";
 import Header from "../components/header";
 import Contributions from "../components/contributions";
 import dynamic from "next/dynamic";
-import Twitch from "../tools/embedTwitch"
+
 
 const FrameComponent: NextPage = () => {
 
-new Twitch.Embed("twitch-embed", {
-    video:"1799767724"
-    , parent:["sheridan.vip"]
-    , muted:true
-})
+  
+
+
 
 
   return (
     <div className="relative bg-darkslategray w-full overflow-hidden flex flex-col items-start justify-start gap-[19px] text-center text-[16px] text-white font-inter">
       <Header />
-      <div className="self-stretch relative inline-block h-[51px] shrink-0">
-        <p className="m-0">
-          Yes, I’m the Dev who made a GPT powered Twitch TV show parodying Last
-          Week Tonight.
-        </p>
-        <p className="m-0">
-          John joked that AI would displace him as a Tea Pot!
-        </p>
-      </div>
-
       
-      <div id="twitch-embed"></div>
       <Contributions />
       <div className="self-stretch flex flex-col items-center justify-start gap-[19px] text-sm font-roboto">
         <div className="relative text-[40px] font-karla inline-block w-[400px] h-[82px] shrink-0">
