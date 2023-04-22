@@ -2,9 +2,17 @@ import type { NextPage } from "next";
 import Header from "../components/header";
 import Contributions from "../components/contributions";
 import dynamic from "next/dynamic";
-
+import Twitch from "../tools/embedTwitch"
 
 const FrameComponent: NextPage = () => {
+
+new Twitch.Embed("twitch-embed", {
+    video:"1799767724"
+    , parent:["sheridan.vip"]
+    , muted:true
+})
+
+
   return (
     <div className="relative bg-darkslategray w-full overflow-hidden flex flex-col items-start justify-start gap-[19px] text-center text-[16px] text-white font-inter">
       <Header />
@@ -19,14 +27,7 @@ const FrameComponent: NextPage = () => {
       </div>
 
       
-      <iframe
-        className="[border:none] self-stretch overflow-hidden"
-        src="https://player.twitch.tv/?video=v1799767724&parent=sheridan.vip&muted=true"
-        height="20%"
-        width="90%"
-        allowFullscreen="true"
-        
-      />
+      <div id="twitch-embed"></div>
       <Contributions />
       <div className="self-stretch flex flex-col items-center justify-start gap-[19px] text-sm font-roboto">
         <div className="relative text-[40px] font-karla inline-block w-[400px] h-[82px] shrink-0">
