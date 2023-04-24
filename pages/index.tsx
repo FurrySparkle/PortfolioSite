@@ -68,7 +68,7 @@ const FrameComponent: NextPage = () => {
             <p className="m-0">
               For my full work history please download my Resume here |
             </p>
-            <p className="m-0">Resume</p>
+            <p className="m-0">Resume.rtf</p>
           </div>
         </a>
         <div className="w-[400px] h-[123px] shrink-0 overflow-hidden flex flex-col py-3 px-[47px] box-border items-start justify-start text-xl">
