@@ -20,6 +20,27 @@ const FrameComponent: NextPage = () => {
         <div className="relative text-[40px] font-karla inline-block w-[400px] h-[82px] shrink-0">
           Previous Work:
         </div>
+
+        <a
+          className="[text-decoration:none] relative w-[400px] h-[186px] shrink-0 overflow-hidden text-left text-[inherit]"
+          href="https://www.twitch.tv/yesterdaytodayai/"
+        >
+          <div className="absolute top-[67px] left-[6px] tracking-[0.4px] leading-[24px] uppercase inline-block w-[396px] h-[108px]">
+            <p className="m-0">
+              GPT 3.5 enabled Twitch tv show parodying Last Week Tonight because eventually HBO will cancel Johnny O.
+            </p>
+            <p className="m-0">
+              This is my main project currently, made in my free time. Please enjoy this Twitch Show as much as my friends and I do.
+            </p>
+          </div>
+          <img
+            className="absolute top-[5px] left-[0px] w-28 h-[62px] object-cover"
+            alt=""
+            src="/Yesterday_Today_AI_Logo_1.png"
+          />
+        </a>
+
+
         <a
           className="[text-decoration:none] relative w-[400px] h-[142px] shrink-0 overflow-hidden text-left text-[inherit]"
           href="https://madao.io/"
