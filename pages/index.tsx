@@ -30,7 +30,7 @@ const FrameComponent: NextPage = () => {
               GPT 3.5 enabled Twitch tv show parodying Last Week Tonight because eventually HBO will cancel Johnny O.
             </p>
             <p className="m-0">
-              This is my main project currently, made in my free time. Please enjoy this Twitch Show as much as my friends and I do.
+              This is my main project currently.Please enjoy this Twitch Show as much as my friends and I do.
             </p>
           </div>
           <img
