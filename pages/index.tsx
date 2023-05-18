@@ -84,7 +84,7 @@ const FrameComponent: NextPage = () => {
           />
         </a>
         <a className="[text-decoration:none] relative w-[400px] h-[114px] shrink-0 overflow-hidden text-xl text-[inherit]"
-        href="public\Resume.rtf" download target="_blank" >
+        href="https://github.com/FurrySparkle/PortfolioSite/blob/main/public/Resume.rtf" target="_blank" >
           <div className="absolute top-[15px] left-[29px] tracking-[0.4px] leading-[24px] uppercase inline-block w-[335px] h-[127px]">
             <p className="m-0">
               For my full work history please download my Resume here |
