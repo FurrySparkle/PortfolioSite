@@ -27,16 +27,16 @@ const FrameComponent: NextPage = () => {
         >
           <div className="absolute top-[67px] left-[6px] tracking-[0.4px] leading-[24px] uppercase inline-block w-[396px] h-[108px]">
             <p className="m-0">
-              GPT 3.5 enabled Twitch tv show parodying Last Week Tonight because eventually HBO will cancel Johnny O.
+              Bury Me Software is a small indie team focused on PlayStation Games.
             </p>
             <p className="m-0">
-              This is my main project currently.Please enjoy this Twitch Show as much as my friends and I do.
+              This is my main project currently.Please enjoy this Project as much as my friends and I do.
             </p>
           </div>
           <img
             className="absolute top-[5px] left-[0px] w-28 h-[62px] object-cover"
             alt=""
-            src="/Yesterday_Today_AI_Logo_1.png"
+            src="/BuryMeLogo.png"
           />
         </a>
 
