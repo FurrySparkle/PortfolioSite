@@ -30,7 +30,7 @@ const FrameComponent: NextPage = () => {
               Bury Me Software is a small indie team focused on PlayStation Games.
             </p>
             <p className="m-0">
-              This is my main project currently.Please enjoy this Project as much as my friends and I do.
+              This is my main project currently.  Please enjoy this Project as much as my friends and I do.
             </p>
           </div>
           <img
