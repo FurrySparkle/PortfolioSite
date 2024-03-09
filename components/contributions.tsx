@@ -13,7 +13,7 @@ const Contributions: NextPage = () => {
         </p>
       </div>
      
-      <video  height="500" width="75%" controls src="WebDemo.ogv" typeof="movie/ogv"></video>
+      <video  height="500" width="75%" controls ><source src="WebDemo.ogv" type="movie"></source></video>
       <div className="relative w-[336px] h-[127px] shrink-0">
         <blockquote className="m-0 absolute top-[0px] left-[0px]">I’m looking for W2 employment. Experienced Dev across software disciplines. <a href="https://github.com/SparkleTech-VR/OpenPulseConverter/releases/tag/0.2.6">Check out the Repo here</a></blockquote >
       </div>
