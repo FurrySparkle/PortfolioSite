@@ -6,10 +6,6 @@ import dynamic from "next/dynamic";
 
 const FrameComponent: NextPage = () => {
 
-  
-
-
-
 
   return (
     <div className="relative bg-darkslategray w-full overflow-hidden flex flex-col items-start justify-start gap-[19px] text-center text-[16px] text-white font-inter">
@@ -23,7 +19,7 @@ const FrameComponent: NextPage = () => {
 
         <a
           className="[text-decoration:none] relative w-[400px] h-[186px] shrink-0 overflow-hidden text-left text-[inherit]"
-          href="https://www.twitch.tv/yesterdaytodayai/"
+          href=""
         >
           <div className="absolute top-[67px] left-[6px] tracking-[0.4px] leading-[24px] uppercase inline-block w-[396px] h-[108px]">
             <p className="m-0">

@@ -6,17 +6,16 @@ const Contributions: NextPage = () => {
     <div className="self-stretch overflow-hidden flex flex-col py-[27px] px-4 items-center justify-start gap-[36px]">
       <div className="self-stretch relative inline-block h-[51px] shrink-0">
         <p className="m-0">
-          Yes, I’m the Dev who made a GPT powered Twitch TV show parodying Last
-          Week Tonight.
+          Yes, I’m the Dev who made OpenPulse converter.
         </p>
         <p className="m-0">
-          John joked that AI would displace him as a Tea Pot!
+          The tool to use the BiFrost Pulse VR glove with some games supported by OpenGloves Driver!
         </p>
       </div>
      
-      <iframe src="https://clips.twitch.tv/embed?clip=EsteemedAnnoyingDunlinFutureMan-jA6jOM0nWrhuvVAB&parent=sheridan.vip" height="500" width="75%"></iframe>
+      <iframe src="https://github.com/FurrySparkle/PortfolioSite/blob/main/public/HLA_Glove_Demo.mov" height="500" width="75%"></iframe>
       <div className="relative w-[336px] h-[127px] shrink-0">
-        <blockquote className="m-0 absolute top-[0px] left-[0px]">I’m looking for W2 employment as an Unreal Engine 5 Dev. Interested in AI and VFX. Very flexible on what I work on including learning new languages and engines.</blockquote >
+        <blockquote className="m-0 absolute top-[0px] left-[0px]">I’m looking for W2 employment. Experienced Dev across software disciplines. <a href="https://github.com/SparkleTech-VR/OpenPulseConverter/releases/tag/0.2.6">Check out the Repo here</a></blockquote >
       </div>
       <div className="w-[359px] h-14 shrink-0 overflow-hidden flex flex-row py-[9px] pr-0 pl-[7px] box-border items-center justify-start gap-[118px]">
         <Button
