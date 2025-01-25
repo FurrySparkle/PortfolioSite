@@ -19,11 +19,11 @@ const FrameComponent: NextPage = () => {
 
         <a
           className="[text-decoration:none] relative w-[400px] h-[186px] shrink-0 overflow-hidden text-left text-[inherit]"
-          href=""
+          href="https://dega-8.com/"
         >
           <div className="absolute top-[67px] left-[6px] tracking-[0.4px] leading-[24px] uppercase inline-block w-[396px] h-[108px]">
             <p className="m-0">
-              Bury Me Software is a small indie team focused on PlayStation Games.
+              DEGA-8 is an AI powered pic0-8 game generator using LLM to make games instantly. Please go make games!
             </p>
             <p className="m-0">
               This is my main project currently.  Please enjoy this Project as much as my friends and I do.
@@ -32,7 +32,7 @@ const FrameComponent: NextPage = () => {
           <img
             className="absolute top-[5px] left-[0px] w-28 h-[62px] object-cover"
             alt=""
-            src="/BuryMeLogo.png"
+            src="/Dega8.png"
           />
         </a>
 
@@ -80,7 +80,7 @@ const FrameComponent: NextPage = () => {
           />
         </a>
         <a className="[text-decoration:none] relative w-[400px] h-[114px] shrink-0 overflow-hidden text-xl text-[inherit]"
-        href="https://github.com/FurrySparkle/PortfolioSite/blob/main/public/Resume2024Skills.pdf" target="_blank" >
+        href="https://github.com/FurrySparkle/PortfolioSite/blob/main/public/Resume-1-25-2025.pdf" target="_blank" >
           <div className="absolute top-[15px] left-[29px] tracking-[0.4px] leading-[24px] uppercase inline-block w-[335px] h-[127px]">
             <p className="m-0">
               For my full work history please download my Resume here |

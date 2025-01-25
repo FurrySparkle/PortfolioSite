@@ -14,7 +14,7 @@ const Contributions: NextPage = () => {
       </div>
       <video  height="500" width="75%" controls muted loop><source src="WebDemo.webm" type="video/webm"></source></video>
       <div className="relative w-[336px] h-[127px] shrink-0">
-        <blockquote className="m-0 absolute top-[0px] left-[0px]">I’m looking for W2 employment. Experienced Dev across software disciplines. <a href="https://github.com/SparkleTech-VR/OpenPulseConverter/releases/tag/0.2.6">Check out the Repo here</a></blockquote >
+        <blockquote className="m-0 absolute top-[0px] left-[0px]">Open to new project offers, if they are interesting. Experienced Dev across software disciplines. <a href="https://github.com/SparkleTech-VR/OpenPulseConverter/releases/tag/0.2.6">Check out the Repo here</a></blockquote >
       </div>
       <div className="w-[359px] h-14 shrink-0 overflow-hidden flex flex-row py-[9px] pr-0 pl-[7px] box-border items-center justify-start gap-[118px]">
         <Button
